@@ -6,6 +6,8 @@ build
 
 # Ignore binaries
 /bin
+/build
+/cmake-build-debug
 
 # Ignore .idea
 /.idea
