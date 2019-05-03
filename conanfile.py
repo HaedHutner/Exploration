@@ -12,7 +12,8 @@ class Exploration(ConanFile):
         "glew/2.1.0@bincrafters/stable",
         "glm/0.9.9.4@g-truc/stable",
         "glfw/3.3@bincrafters/stable",
-        "stb/20180214@conan/stable"
+        "stb/20180214@conan/stable",
+        "gtest/1.8.1@bincrafters/stable"
     )
 
     generators = "cmake"

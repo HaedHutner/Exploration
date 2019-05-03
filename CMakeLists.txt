@@ -7,11 +7,16 @@ include(build/conanbuildinfo.cmake)
 
 conan_basic_setup()
 
-include_directories(${CMAKE_SOURCE_DIR}/src/header)
+include_directories(${CMAKE_SOURCE_DIR}/src/main)
+include_directories(${CMAKE_SOURCE_DIR}/src/test)
 
 add_executable(Exploration
-        src/cpp/Main.cpp
-        src/header/Window.h
-        src/cpp/Window.cpp)
+        src/main/cpp/Main.cpp
+        src/main/explore/Window.h
+        src/main/cpp/Window.cpp
+        src/main/explore/GameLoop.h
+        src/main/explore/Game.h
+        src/main/cpp/Game.cpp
+        src/main/cpp/GameLoop.cpp)
 
 target_link_libraries(Exploration ${CONAN_LIBS})
