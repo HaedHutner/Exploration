@@ -8,10 +8,13 @@
 #include <GL/glew.h>
 
 #include "GameLoop.h"
+#include "resource/ResourceCache.h"
 
 class Game {
 
     Game();
+
+    ~Game();
 
     Window window;
 

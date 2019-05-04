@@ -1,0 +1,8 @@
+#ifndef EXPLORATION_CAMERA_H
+#define EXPLORATION_CAMERA_H
+
+class Camera {
+
+};
+
+#endif //EXPLORATION_CAMERA_H

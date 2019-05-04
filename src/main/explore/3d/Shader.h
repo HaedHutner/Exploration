@@ -1,0 +1,8 @@
+#ifndef EXPLORATION_SHADER_H
+#define EXPLORATION_SHADER_H
+
+class Shader {
+
+};
+
+#endif //EXPLORATION_SHADER_H

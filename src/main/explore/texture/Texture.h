@@ -1,0 +1,8 @@
+#ifndef EXPLORATION_TEXTURE_H
+#define EXPLORATION_TEXTURE_H
+
+class Texture {
+
+};
+
+#endif //EXPLORATION_TEXTURE_H
